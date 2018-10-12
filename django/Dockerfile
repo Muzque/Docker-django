@@ -5,5 +5,4 @@ RUN mkdir /docker_api
 COPY /private/ /docker_api/
 RUN git clone https://github.com/Muzque/django-youtube.git
 RUN mv /django-youtube/ /docker_api/
-WORKDIR /docker_api
-RUN pip install -r requirements.txt
+RUN cd /docker_api && pip install -r requirements.txt
