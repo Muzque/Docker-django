@@ -3,6 +3,6 @@ LABEL maintainer Muzque
 ENV PYTHONunBUFFERED 1
 RUN mkdir /docker_api \ 
  && git clone https://github.com/Muzque/django-youtube.git \
- && mv /django-youtube/ /docker_api/ \
+ && mv django-youtube/* docker_api/ \
  && pip install -r /docker_api/requirements.txt
 COPY /private/ /docker_api/
