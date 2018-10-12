@@ -1,12 +1,24 @@
 version: '3'
 services:
-    web:
+    nginx:
+        container_name: nginx-container
+        build: ./nginx
+        restart: always
+        ports:
+            - "80:8000"
+        volumes:
+            - api_data:/docker_api
+            - ./log:/var/log/nginx
+        depends_on:
+            - api
+    api:
+        container_name: api-container
         build: ./django
-        command: python manage.py runserver 0.0.0.0:8000
+        command: uwsgi --ini uwsgi.ini
         restart: always
         volumes:
             - api_data:/docker_api
         ports:
-            - "80:8000"
+            - "8000:8000"
 volumes:
     api_data:
