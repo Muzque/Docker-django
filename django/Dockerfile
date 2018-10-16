@@ -4,6 +4,7 @@ ENV PYTHONunBUFFERED 1
 RUN mkdir /docker_api \ 
  && git clone https://github.com/Muzque/django-youtube.git \
  && mv django-youtube/* docker_api/ \
- && pip install -r /docker_api/requirements.txt
+ && pip install -r /docker_api/requirements.txt \
+ && sh /docker_api/run.sh
 COPY . /docker_api
 WORKDIR /docker_api
