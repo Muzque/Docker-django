@@ -1,0 +1,96 @@
+2018/10/12 07:44:11 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:12 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:13 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:14 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:15 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:17 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:21 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:28 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:44:41 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:45:07 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:03 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:04 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:04 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:05 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:07 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:09 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:12 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:49:19 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:47 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:48 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:49 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:50 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:51 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:54 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:57:57 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:58:04 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:58:18 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:58:44 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 07:59:35 [emerg] 1#1: unknown directive "deamon" in command line
+2018/10/12 08:12:15 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:16 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:16 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:17 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:19 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:21 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:24 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:31 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:12:45 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:13:11 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:14:03 [emerg] 1#1: unknown directive "upsteam" in /etc/nginx/sites-available/my_nginx.conf:2
+2018/10/12 08:52:13 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:13 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:14 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:15 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:17 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:19 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:23 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:30 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:52:43 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:53:09 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:48 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:49 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:50 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:52 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:53 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:55 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:58:59 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:59:06 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:59:20 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 08:59:46 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:00:37 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:42 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:42 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:43 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:44 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:45 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:47 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:51 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:01:57 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:02:11 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:02:37 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:03:28 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:04:29 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:36 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:37 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:38 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:39 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:40 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:42 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:46 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:05:53 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:06:07 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:06:33 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:07:25 [emerg] 1#1: duplicate location "/" in /etc/nginx/sites-available/my_nginx.conf:35
+2018/10/12 09:10:05 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET / HTTP/1.1", upstream: "https://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:11:05 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "https://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
+2018/10/12 09:12:52 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 125.227.14.175, server: proj_django, request: "GET / HTTP/1.1", upstream: "https://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:13:53 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 125.227.14.175, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "https://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
+2018/10/12 09:19:35 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET / HTTP/1.1", upstream: "https://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:20:36 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "https://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
+2018/10/12 09:22:09 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 125.227.14.175, server: proj_django, request: "GET / HTTP/1.1", upstream: "https://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:23:11 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 125.227.14.175, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "https://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
+2018/10/12 09:50:41 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET / HTTP/1.1", upstream: "http://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:51:41 [error] 6#6: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "http://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
+2018/10/12 09:51:52 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET / HTTP/1.1", upstream: "http://35.185.173.110:8000/", host: "35.185.173.110"
+2018/10/12 09:52:53 [error] 6#6: *5 upstream timed out (110: Connection timed out) while connecting to upstream, client: 111.253.111.160, server: proj_django, request: "GET /favicon.ico HTTP/1.1", upstream: "http://35.185.173.110:8000/favicon.ico", host: "35.185.173.110", referrer: "http://35.185.173.110/"
