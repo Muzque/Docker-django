@@ -10,10 +10,10 @@ services:
             - api_data:/docker_api
             - ./log:/var/log/nginx
         depends_on:
-            - api
+            - app
         networks:
             - backend
-    mysql:
+    db:
         container_name: mysql-container
         image: mysql:latest
         restart: always
@@ -29,7 +29,7 @@ services:
             - "3306:3306"
         networks:
             - backend
-    api:
+    app:
         container_name: api-container
         build: ./django
         command: uwsgi --ini uwsgi.ini
@@ -39,7 +39,7 @@ services:
         ports:
             - "8000:8000"
         depends_on:
-            - mysql
+            - db
         networks:
             - backend
 networks:
