@@ -35,7 +35,7 @@ services:
         ports:
             - "8000:8000"
         depends_on:
-            mysql
-volumes:    - mysql
+            - mysql
+volumes:
     api_data:
     mysqldb:
