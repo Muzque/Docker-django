@@ -11,6 +11,22 @@ services:
             - ./log:/var/log/nginx
         depends_on:
             - api
+    mysql:
+        container_name: mysql
+        build: ./mysql
+        restart: always
+        environment:
+            - MYSQL_DATABASE=${MYSQL_DATABASE}
+            - MYSQL_USER=${MYSQL_USER}
+            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+        volumes:
+            - mysqldb:/var/lib/mysql
+        depends_on:
+            - api
+        command: ["mysqld"]
+        ports:
+            - "3306:3306"
     api:
         container_name: api-container
         build: ./django
