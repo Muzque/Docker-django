@@ -12,8 +12,8 @@ services:
         depends_on:
             - api
     mysql:
-        container_name: mysql
-        build: ./mysql
+        container_name: mysql-container
+        image: mysql:latest
         restart: always
         environment:
             - MYSQL_DATABASE=${MYSQL_DATABASE}
@@ -24,7 +24,7 @@ services:
             - mysqldb:/var/lib/mysql
         depends_on:
             - api
-        command: ["mysqld"]
+        command: ["mysqld", "--character-set-server=utf8"]
         ports:
             - "3306:3306"
     api:
