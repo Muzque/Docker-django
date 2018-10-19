@@ -22,8 +22,6 @@ services:
             - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
         volumes:
             - mysqldb:/var/lib/mysql
-        depends_on:
-            - api
         command: ["mysqld", "--character-set-server=utf8"]
         ports:
             - "3306:3306"
@@ -36,6 +34,8 @@ services:
             - api_data:/docker_api
         ports:
             - "8000:8000"
-volumes:
+        depends_on:
+            mysql
+volumes:    - mysql
     api_data:
     mysqldb:
