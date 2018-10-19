@@ -46,4 +46,5 @@ networks:
         backend:
                 driver: "bridge"
 volumes:
+        api_data:
         mysqldb:
