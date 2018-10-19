@@ -1,18 +1,5 @@
 version: '3'
 services:
-    nginx:
-        container_name: nginx-container
-        build: ./nginx
-        restart: always
-        ports:
-            - "80:80"
-        volumes:
-            - api_data:/docker_api
-            - ./log:/var/log/nginx
-        depends_on:
-            - app
-        networks:
-            - backend
     db:
         container_name: mysql-container
         image: mysql:latest
@@ -27,6 +14,19 @@ services:
         command: ["mysqld", "--character-set-server=utf8"]
         ports:
             - "3306:3306"
+        networks:
+            - backend
+    nginx:
+        container_name: nginx-container
+        build: ./nginx
+        restart: always
+        ports:
+            - "80:80"
+        volumes:
+            - api_data:/docker_api
+            - ./log:/var/log/nginx
+        depends_on:
+            - app
         networks:
             - backend
     app:
@@ -46,5 +46,4 @@ networks:
         backend:
                 driver: "bridge"
 volumes:
-        api_data:
         mysqldb:
