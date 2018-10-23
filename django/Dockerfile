@@ -7,4 +7,3 @@ RUN mkdir /docker_api \
  && pip install -r /docker_api/requirements.txt
 COPY . /docker_api
 WORKDIR /docker_api
-RUN sh /docker_api/run.sh

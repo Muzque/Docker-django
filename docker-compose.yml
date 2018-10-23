@@ -34,7 +34,7 @@ services:
     app:
         container_name: api-container
         build: ./django
-        command: uwsgi --ini uwsgi.ini
+        command: sh build.sh
         restart: always
         volumes:
             - api_data:/docker_api
