@@ -21,7 +21,7 @@ services:
             - backend
     redis:
         container_name: redis-container
-        images: redis:latest
+        image: redis:latest
         ports:
             - "6379:6379"
         volumes:
