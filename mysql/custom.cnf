@@ -6,6 +6,7 @@ init_connect='DEFAULT CHARACTER SET utf8mb4'
 default-storage-engine=INNODB
 skip-character-set-client-handshake
 
+character-set-client-handshake = FALSE
 character-set-server=utf8mb4
 collation-server = utf8_unicode_ci
 
