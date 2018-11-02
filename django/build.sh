@@ -1,5 +1,5 @@
 git init
-git remote add origin clone https://github.com/Muzque/django-youtube.git
+git remote add origin https://github.com/Muzque/django-youtube.git
 git fetch
 git branch master origin/master
 git checkout master
