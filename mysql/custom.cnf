@@ -8,7 +8,7 @@ skip-character-set-client-handshake
 
 character-set-client-handshake = FALSE
 character-set-server=utf8mb4
-collation-server = utf8_unicode_ci
+collation-server = utf8mb4_unicode_ci
 
 [client]
 default-character-set=utf8mb4
